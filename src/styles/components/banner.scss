@@ -1,0 +1,9 @@
+.carousel {
+  .carousel__viewport {
+    height: 250px;
+  }
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+}

@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  width: 100%;
+  padding: 0;
+  position: relative;
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -14,4 +17,12 @@ body {
   a {
     color: white;
   }
+}
+
+.carousel__next {
+  right: 20px !important;
+}
+
+.carousel__prev {
+  left: 20px !important;
 }
