@@ -1,12 +1,11 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+  <div>
+    <h1>This is a home page</h1>
   </div>
 </template>
 
 <script>
-import "@/styles/views/home.scss";
 export default {
-  name: "Hello",
+  name: "Home",
 };
 </script>
