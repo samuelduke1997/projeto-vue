@@ -15,7 +15,7 @@
 <script>
 import Banner from "@/common/components/Banner";
 import CardDefault from "@/common/components/CardDefault";
-import getCats from "@/services/catAPI.js";
+import { getCats } from "@/services/catAPI.js";
 import "@/styles/views/home.scss";
 
 export default {

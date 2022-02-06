@@ -2,11 +2,13 @@
   <div class="cardDefault">
     <div class="cardHeader">
       <div class="cardTitle">
-        <h2>Gato: {{ name }}</h2>
+        <router-link :to="/cat/ + name"
+          ><h2>Gato: {{ name }}</h2></router-link
+        >
       </div>
     </div>
     <div class="cardBody">
-      <img :src="img" />
+      <router-link :to="/cat/ + name"> <img :src="img" /></router-link>
     </div>
   </div>
 </template>
